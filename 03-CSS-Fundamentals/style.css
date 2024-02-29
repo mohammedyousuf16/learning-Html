@@ -81,3 +81,11 @@ aside {
   background-color: #f7f7f7;
   border: 5px solid #fa1919;
 }
+
+li:first-child {
+  color: aqua;
+}
+
+li:nth-child(3) {
+  color: #01b3ff;
+}
