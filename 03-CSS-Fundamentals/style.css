@@ -83,9 +83,31 @@ aside {
 }
 
 li:first-child {
-  color: aqua;
+  /* color: aqua; */
 }
 
 li:nth-child(3) {
-  color: #01b3ff;
+  /* color: #01b3ff; */
 }
+/* Missconsuption: this wont work!!! */
+article p:first-child {
+  color: aquamarine;
+}
+/* styling links */
+a:link {
+  color: #146bb8;
+  text-decoration: none;
+}
+a:visited {
+  color: #146bb8;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/* LVHA for easy remmembrance */
