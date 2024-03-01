@@ -27,6 +27,7 @@ article {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 .post-header {
@@ -37,6 +38,7 @@ aside {
   background-color: #f7f7f7;
   border: 5px solid #fa1919;
   padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -146,3 +148,7 @@ a:active {
   font-style: italic;
 }
 /* LVHA for easy remmembrance */
+.post-img {
+  width: 50%;
+  height: auto;
+}
