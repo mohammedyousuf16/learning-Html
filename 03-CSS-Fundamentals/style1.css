@@ -1,5 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
-  border: 5px solid;
+  margin-bottom: 10px;
+
   font-family: sans-serif;
 }
 article header:first-child {
@@ -8,8 +13,10 @@ article header:first-child {
   font-size: 15px;
   font-family: sans-serif;
   background-color: #c2c2c2;
+  padding: 10px 20px;
 }
 .amount {
+  padding-bottom: 10px;
   font-weight: bold;
   color: rgb(0, 0, 0);
   font-size: 22px;
@@ -17,11 +24,10 @@ article header:first-child {
 a:hover {
   text-decoration: none;
 }
-a:active {
-  color: black;
-}
+
 a:link {
   color: black;
+  margin-bottom: 10px;
   text-size: 20px;
 }
 a :visited {
@@ -41,4 +47,36 @@ button {
 button:hover {
   background-color: white;
   color: black;
+}
+.container {
+  border: solid black;
+  margin: 200px;
+  width: auto;
+  height: auto;
+}
+
+/* .product {
+  width: 825px;
+} */
+
+#heading {
+  height: 10px;
+}
+li {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+article header:nth-child(2) {
+  margin-bottom: 10px;
+}
+p,
+h3 {
+  padding-bottom: 10px;
+}
+button {
+  padding: 30px 820px;
+}
+#ship {
+  font-weight: lighter;
+  font-family: sans-serif;
 }
