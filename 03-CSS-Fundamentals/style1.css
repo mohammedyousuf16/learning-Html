@@ -16,7 +16,6 @@ article header:first-child {
   padding: 10px 20px;
 }
 .amount {
-  padding-bottom: 10px;
   font-weight: bold;
   color: rgb(0, 0, 0);
   font-size: 22px;
@@ -26,7 +25,7 @@ a:hover {
 }
 
 a:link {
-  color: black;
+  color: green;
   margin-bottom: 10px;
   text-size: 20px;
 }
@@ -49,8 +48,6 @@ button:hover {
   color: black;
 }
 .container {
-  border: solid black;
-  margin: 200px;
   width: auto;
   height: auto;
 }
@@ -74,9 +71,22 @@ h3 {
   padding-bottom: 10px;
 }
 button {
-  padding: 30px 820px;
+  width: 100%;
+  padding: 10px 10px;
 }
 #ship {
-  font-weight: lighter;
+  color: red;
   font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.product {
+  width: 825px;
+  border: 5px solid;
+  margin: 50px auto;
+}
+h3 {
+  margin-top: 10px;
+}
+a {
+  color: black;
 }
