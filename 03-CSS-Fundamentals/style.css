@@ -149,6 +149,10 @@ a:active {
 }
 /* LVHA for easy remmembrance */
 .post-img {
-  width: 50%;
+  width: 100%;
   height: auto;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
 }
