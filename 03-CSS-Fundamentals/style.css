@@ -24,7 +24,7 @@ nav {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  height: auto;
 }
 
 .post-header {
@@ -116,7 +116,8 @@ ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
-li:first-child {
+li {
+  display: inline;
   /* color: aqua; */
 }
 
@@ -129,11 +130,11 @@ article p:first-child {
 }
 /* styling links */
 a:link {
-  color: #146bb8;
+  color: #b81450;
   text-decoration: none;
 }
 a:visited {
-  color: #146bb8;
+  color: #b81450;
 }
 a:hover {
   color: orangered;
@@ -152,4 +153,17 @@ a:active {
 .container {
   width: 800px;
   margin: 0 auto;
+}
+
+nav a:link {
+  /* background-color: rgb(37, 131, 76);
+  display: block;
+  margin: 20px;
+  padding: 20px; */
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+nav a:link:last-child {
+  margin-right: 0;
 }
