@@ -23,6 +23,7 @@ nav {
 
 .main-header {
   background-color: #f7f7f7;
+  background-color: yellow;
   padding: 20px 40px;
   margin-bottom: 60px;
   height: auto;
@@ -217,6 +218,17 @@ margin-bottom: 20px;
 h1{
   float: left;
 }
+
 nav{
   float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+.clearfix::after{
+content: '';
+display: block;
+clear: both;
 }
