@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin-bottom: 10px;
+
+  font-family: sans-serif;
+}
+article header:first-child {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: #c2c2c2;
+  padding: 10px 20px;
+}
+.amount {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+a:link {
+  color: green;
+  margin-bottom: 10px;
+  text-size: 20px;
+}
+a :visited {
+  color: black;
+}
+.list {
+  font-family: sans-serif;
+  list-style-type: square;
+}
+button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+.container {
+  width: auto;
+  height: auto;
+}
+
+/* .product {
+  width: 825px;
+} */
+
+#heading {
+  height: 10px;
+}
+li {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+article header:nth-child(2) {
+  margin-bottom: 10px;
+}
+p,
+h3 {
+  padding-bottom: 10px;
+}
+button {
+  width: 100%;
+  padding: 10px 10px;
+}
+#ship {
+  color: red;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.product {
+  width: 825px;
+  border: 5px solid;
+  margin: 50px auto;
+  position: relative;
+}
+h3 {
+  margin-top: 10px;
+}
+a {
+  color: black;
+}
+
+.sale {
+  color: white;
+  background-color: red;
+  display: inline-block;
+  top: -18px;
+  left: -29px;
+  position: absolute;
+  font-weight: bold;
+  padding: 5px 5px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+/* .product::before {
+  content: "SALE";
+  color: white;
+  background-color: red;
+  display: inline-block;
+  top: -13px;
+  left: -22px;
+  position: absolute;
+  font-weight: bold;
+  padding: 5px 5px;
+  font-family: sans-serif;
+} */
+.colors {
+  margin: 10px 10px;
+}
+.color {
+  margin-left: 5px;
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+}
+
+.color-blue {
+  background-color: blue;
+}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-green {
+  background-color: green;
+}
+.color-brown {
+  background-color: #471313ec;
+}
