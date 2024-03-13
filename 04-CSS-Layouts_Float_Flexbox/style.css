@@ -23,7 +23,6 @@ nav {
 
 .main-header {
   background-color: #f7f7f7;
-  background-color: yellow;
   padding: 20px 40px;
   margin-bottom: 60px;
   height: auto;
@@ -35,7 +34,7 @@ nav {
 
 aside {
   background-color: #f7f7f7;
-  border: 5px solid #fa1919;
+  border: 3px solid #fa1919;
   padding: 50px 0;
   width: 500px;
   position: relative;
@@ -156,7 +155,7 @@ a:active {
   height: auto;
 }
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
   
 
@@ -231,4 +230,19 @@ nav{
 content: '';
 display: block;
 clear: both;
+}
+
+article{
+  width: 825px;
+  
+  float: left;
+}
+aside{
+ 
+  float: right;
+  width: 300px;
+}
+footer{
+  
+  clear: both;
 }
