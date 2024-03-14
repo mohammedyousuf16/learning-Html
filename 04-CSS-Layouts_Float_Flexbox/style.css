@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1,
@@ -35,16 +36,16 @@ nav {
 aside {
   background-color: #f7f7f7;
   border: 3px solid #fa1919;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
   position: relative;
+  
 }
 
 h1,
 h2,
 h3 {
   color: #ad2929;
-}
+} 
 
 h1 {
   font-size: 30px;
@@ -67,7 +68,7 @@ h3 {
 
 h4 {
   font-size: 20px;
-
+   margin-bottom: 30px; 
   text-transform: uppercase;
   text-align: center;
 }
@@ -114,6 +115,7 @@ li:last-child {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 ul,
 ol {
