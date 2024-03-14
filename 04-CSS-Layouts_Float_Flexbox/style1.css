@@ -1,145 +1,127 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
+
 body {
-  margin-bottom: 10px;
-
   font-family: sans-serif;
-}
-article header:first-child {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-family: sans-serif;
-  background-color: #c2c2c2;
-  padding: 10px 20px;
-}
-.amount {
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-}
-a:hover {
-  text-decoration: none;
+  line-height: 1.4;
 }
 
-a:link {
-  color: green;
-  margin-bottom: 10px;
-  text-size: 20px;
-}
-a :visited {
-  color: black;
-}
-.list {
-  font-family: sans-serif;
-  list-style-type: square;
-}
-button {
-  background-color: black;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-button:hover {
-  background-color: white;
-  color: black;
-}
-.container {
-  width: auto;
-  height: auto;
-}
-
-/* .product {
-  width: 825px;
-} */
-
-#heading {
-  height: 10px;
-}
-li {
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-article header:nth-child(2) {
-  margin-bottom: 10px;
-}
-p,
-h3 {
-  padding-bottom: 10px;
-}
-button {
-  width: 100%;
-  padding: 10px 10px;
-}
-#ship {
-  color: red;
-  font-family: sans-serif;
-  margin-bottom: 10px;
-}
+/* PRODUCT */
 .product {
+  border: 4px solid black;
   width: 825px;
-  border: 5px solid;
   margin: 50px auto;
   position: relative;
 }
-h3 {
-  margin-top: 10px;
+
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  padding: 15px;
 }
-a {
-  color: black;
+
+/* PRODUCT INFORMATION */
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
 }
 
 .sale {
-  color: white;
-  background-color: red;
-  display: inline-block;
-  top: -18px;
-  left: -29px;
-  position: absolute;
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
   font-weight: bold;
-  padding: 5px 5px;
-  font-family: sans-serif;
   letter-spacing: 2px;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+
+  /*   width: 40px;
+  text-align: center; */
 }
 
-/* .product::before {
-  content: "SALE";
-  color: white;
-  background-color: red;
+.more-info:link,
+.more-info:visited {
+  color: black;
+  margin-bottom: 30px;
   display: inline-block;
-  top: -13px;
-  left: -22px;
-  position: absolute;
-  font-weight: bold;
-  padding: 5px 5px;
-  font-family: sans-serif;
-} */
-.colors {
-  margin: 10px 10px;
 }
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
 .color {
-  margin-left: 5px;
   background-color: #000;
   height: 22px;
   width: 22px;
   display: inline-block;
+  margin-right: 10px;
 }
 
 .color-blue {
-  background-color: blue;
+  background-color: #2f6ee2;
 }
 .color-red {
-  background-color: red;
+  background-color: #ec2f2f;
 }
 .color-yellow {
-  background-color: yellow;
+  background-color: #f0bf1e;
 }
 .color-green {
-  background-color: green;
+  background-color: #90cc20;
 }
 .color-brown {
-  background-color: #471313ec;
+  background-color: #885214;
 }
+
+/* PRODUCT DETAILS */
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.add-cart {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
+}
+https: ; //i.ibb.co/Jr7Wh1d/challenges.jpg
