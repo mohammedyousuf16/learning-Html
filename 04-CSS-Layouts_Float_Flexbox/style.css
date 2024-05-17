@@ -346,3 +346,16 @@ footer {
   margin-bottom: 5px;
   display: block;
 }
+.row {
+  align-items: flex-start;
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
+aside {
+  flex: 0 0 300px;
+}
