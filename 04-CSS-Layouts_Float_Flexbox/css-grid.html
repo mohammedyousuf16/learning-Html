@@ -40,11 +40,14 @@
         margin: 40px;
 
         /* CSS GRID */
+        /* grid-template-rows: 300px 200px; */
         display: grid;
-        grid-template-columns: 200px 200px 100px 100px;
-        grid-template-rows: 300px 200px;
-        column-gap: 30px;
-        row-gap: 60px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        height: 500px;
+
+        column-gap: 10px;
+        row-gap: 40px;
       }
 
       .container--2 {
