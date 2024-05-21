@@ -16,10 +16,15 @@ body {
 } */
 
 .container {
-  /* background-color: red; */
+  /* FlexBox layout */
+  /* background-color: red;
   display: flex;
   gap: 40px;
-  align-items: flex-start;
+  align-items: flex-start; */
+  /* CSS GRID layout */
+  display: grid;
+  grid-template-columns: 270px 1fr 1fr;
+  column-gap: 20px;
 }
 
 .main-header {
